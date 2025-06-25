@@ -416,7 +416,7 @@ const FAQ = () => (
             How long does the design process take?
           </h3>
           <p className="text-gray-600">
-            Typically, our design process takes 4-6 weeks, but we can work with
+            Typically, our design process takes 1-2 weeks, but we can work with
             your timeline to ensure a smooth launch.
           </p>
         </div>
