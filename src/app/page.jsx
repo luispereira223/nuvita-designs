@@ -308,6 +308,7 @@ const Services = () => (
   </div>
 );
 
+
 const Testimonials = () => (
   <div className="bg-gray-50 py-20 lg:py-32">
     <div className="px-6 lg:px-12">
@@ -320,63 +321,68 @@ const Testimonials = () => (
           Saying
         </h2>
       </div>
-      <div className="max-w-6xl mx-auto relative px-16">
-        <div className="absolute -top-12 left-0 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
+      <div className="max-w-6xl mx-auto relative px-4 lg:px-16">
+        {/* Profile images - hidden on mobile for cleaner look */}
+        <div className="hidden lg:block">
+          <div className="absolute -top-12 left-0 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute -top-12 right-0 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute top-1/3 -left-12 w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute top-1/3 -right-12 w-14 h-14 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute -bottom-12 left-1/4 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=388&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute -bottom-20 right-1/3 w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+              alt="Client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute top-8 left-20 w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=1361&q=80"
+              alt="Featured client testimonial"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
-        <div className="absolute -top-12 right-0 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute top-1/3 -left-12 w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute top-1/3 -right-12 w-14 h-14 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=387&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute -bottom-12 left-1/4 w-16 h-16 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=388&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute -bottom-20 right-1/3 w-12 h-12 rounded-full overflow-hidden border-4 border-white shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt="Client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute top-8 left-20 w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-xl">
-          <img
-            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=1361&q=80"
-            alt="Featured client testimonial"
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="bg-[#3d485d] rounded-2xl p-8 lg:p-12 relative max-w-2xl mx-auto">
+        
+        {/* Testimonial card - full width on mobile, constrained on desktop */}
+        <div className="bg-[#3d485d] rounded-2xl p-6 lg:p-12 relative w-full lg:max-w-2xl lg:mx-auto">
           <Quote className="w-12 h-12 text-white mb-6" />
           <blockquote className="text-white text-lg lg:text-xl leading-relaxed mb-6 text-center">
             "Since partnering with Creative Web Solutions, our client inquiries
             have increased by 40%, and our website now ranks on the first page
             of Google for our key services. The team was professional,
-            responsive, and truly understood our business needs. We couldn’t be
+            responsive, and truly understood our business needs. We couldn't be
             happier with the results!" - Jane Doe, ABC Services
           </blockquote>
           <div className="flex justify-end">
