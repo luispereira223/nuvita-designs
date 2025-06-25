@@ -379,11 +379,10 @@ const Testimonials = () => (
         <div className="bg-[#3d485d] rounded-2xl p-6 lg:p-12 relative w-full lg:max-w-2xl lg:mx-auto">
           <Quote className="w-12 h-12 text-white mb-6" />
           <blockquote className="text-white text-lg lg:text-xl leading-relaxed mb-6 text-center">
-            "Since partnering with Creative Web Solutions, our client inquiries
-            have increased by 40%, and our website now ranks on the first page
-            of Google for our key services. The team was professional,
+            "Since partnering with Nuvita Designs, our client inquiries
+            have increased by 40%. The team was professional,
             responsive, and truly understood our business needs. We couldn't be
-            happier with the results!" - Jane Doe, ABC Services
+            happier with the results!" - Samuel Leeds
           </blockquote>
           <div className="flex justify-end">
             <Quote className="w-12 h-12 text-white rotate-180" />
